@@ -30,15 +30,4 @@
 			</exclude>
 		</whitelist>
 	</filter>
-	<listeners>
-		<listener class="SpeedTrapListener" file="tests/phpunit/includes/speed-trap-listener.php">
-			<arguments>
-				<array>
-					<element key="slowThreshold">
-						<integer>400</integer>
-					</element>
-				</array>
-			</arguments>
-		</listener>
-	</listeners>
 </phpunit>
